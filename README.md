@@ -1,6 +1,6 @@
 # A Data Analysis of USDA (U.S. Department of Agriculture) Data on the per capita availability, importation and exportation (and other findings) of _corn sweeteners_
 
-*_Note: For the purposes of this data analysis, the term "corn sweeteners" includes the following: High Fructose Corn Syrup (HFCS), dextrose, and glucose._*
+*Note: For the purposes of this data analysis, the term "corn sweeteners" includes the following: High Fructose Corn Syrup (HFCS), dextrose, and glucose.*
 
 Jenny (Jennifer) Kwon · Final project for Professor Jeremy Rue's J124 (Introduction to Data Journalism) @ U.C. Berkeley's School of Journalism
 
@@ -43,7 +43,7 @@ The answer to the first question was yes, which brings us here to this mini data
 
 ### Getting and cleaning/refining the data
 
-*_Note for @Jrue: The tool **Open Refine** corrupted on my computer - the macOS system wouldn't let me use this tool because it blocked all "malware" apps and I didn't find a workaround in time, unfortunately. I was limited to Google Sheets for cleanup because my data wasn't **messy** enough or only in pdf form to use a tool like **Tabula**. Thank you for your understanding!_*
+*Note for @Jrue: The tool **Open Refine** corrupted on my computer - the macOS system wouldn't let me use this tool because it blocked all "malware" apps and I didn't find a workaround in time, unfortunately. I was limited to Google Sheets for cleanup because my data wasn't **messy** enough or only in pdf form to use a tool like **Tabula**. Thank you for your understanding!*
 
 Finding the data on USDA's website on corn sweeteners actually wasn't too hard. The department has the data on a page titled ["Sugar and Sweeteners Yearbook Tables"](https://www.ers.usda.gov/data-products/sugar-and-sweeteners-yearbook-tables/).
 
@@ -89,11 +89,55 @@ I created a new column with the same column name I was going to convert (i.e. I 
 
 In the new column, I typed in the first cell a function similar to this:
 
-``` =A2 * 2000000  
+```
+=A2 * 2000000  
 ```
 
-A2 was the cell I was referencing 
+Quick explanation: An equal sign is needed for Google Sheets functions! A2 was the cell I was referencing from the old column that I wanted to be converted in the *new* column. "200000" is the value I was multiplying it by because 1 ton equals 2000 pounds, and since the unit was 1000 short tons, 1 "1000 short ton" was actually equal to "2000 * 1000" or "200000" pounds. 
 
+Magical, right? I did such basic conversion and cleaning for this dataset that I'm actually embarrassed. I'm sorry you have to see this @Deena or @Jrue. I swear I tried really hard. The process of making the dataset nice enough to make charts from was actually more difficult than it looks here.
+
+Using the process above, I converted the data on imports, exports, and production of each of the corn sweeteners into pounds to match the per capita availability unit as best as I could.
+
+But there was a second issue.
+
+2. "NA" was showing up on a lot of the columns, specifically for information on total imports of HCFS per year in 1000 short tons. This not available data was causing the new columns showing the conversion to display "#VALUE!"
+
+I wanted to compare data that was available for all sweeteners in all categories, so I decided to omit analyzing these years. When I was preparing the data for analysis, I used the "paste values only" special function. 
+
+!!! ATTACH IMAGE OF paste_value !!!!
+
+!!! ATTACH IMAGE OF afterpaste_value !!!!
+
+Unfortunately, this move also caused this issue (because it was VERY unlikely that any imports of a corn sweetener like dextrose would be at "0" for a country like the U.S. (no offense):
+
+!!! ATTACH IMAGE OF arefulwithzeroes_errorwithpastevalue !!!!
+
+I had to go back to the original column, double check my data, and then manually correct and convert the data. It's good to double check! 
+
+### Filtering through my merged dataset
+
+After this tedious process was over, I thought it would be cool to look through this merged data using the **filter** function on Google Sheets.
+
+Because all of this data hinged on the *year* they were collected, I thought it would be interesting to see which year(s) experienced the highest corn sweetener production and per capita availability.
+
+Some example images of what I found:
+
+!!! ATTACH IMAGE OF whichyearhighestglucoseprod !!!!
+
+!!! ATTACH IMAGE OF whichyearhighestdextroseprod !!!!
+
+!!! ATTACH IMAGE OF whichyearhighestHFCSprod !!!!
+
+!!! ATTACH IMAGE OF whichyearhighestavailabilityTOTAL !!!!
+
+!!! ATTACH IMAGE OF percapitaAtLow2013 !!!!
+
+The year **1999** saw the highest per capita availability and production for HFCS, the year **1996** saw the highest dextrose production, and the year **2013** saw the highest glucose production (but **1997** saw the highest per capita availability for glucose - 2 different years). 
+
+Data notifies people of inconsistencies, but they don't tell the full story. I wonder if there have been certain **policies or laws** that explain why these dates saw the highest rates of production or availability or why there was a drop after these years? 
+
+The data showed interesting results when I organized them from A --> Z (least to greatest) instead of Z --> A (greatest to least). 
 
 
 I decided 
