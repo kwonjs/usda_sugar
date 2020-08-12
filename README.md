@@ -137,8 +137,9 @@ The year **1999** saw the highest per capita availability and production for HFC
 
 Data notifies people of inconsistencies, but they don't tell the full story. I wonder if there have been certain **policies or laws** that explain why these dates saw the highest rates of production or availability or why there was a drop after these years? 
 
-The data showed interesting results when I organized them from A --> Z (least to greatest) instead of Z --> A (greatest to least). 
+The data showed interesting results when I organized them from A --> Z (least to greatest) instead of Z --> A (greatest to least). While I expected earlier years to have *less* production or per capita availability of corn sweeteners (especially because the population was smaller then), **2013** - a fairly recent time relative to the years in this dataset - was actually the year with the 5th lowest per capita availability for HFCS. The same question emerged: Are there certain **policies or laws** that explain this discrepancy? 
 
+### Visualizations from my merged dataset
 
 I decided 
 
