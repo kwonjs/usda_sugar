@@ -41,7 +41,7 @@ Which raised questions I was curious about: *_Was the amount of corn sweetener t
 
 The answer to the first question was yes, which brings us here to this mini data cleaning & analysis project today. 
 
-### Getting and cleaning/refining the data
+## Getting and cleaning/refining the data
 
 *Note for @Jrue: The tool **Open Refine** corrupted on my computer - the macOS system wouldn't let me use this tool because it blocked all "malware" apps and I didn't find a workaround in time, unfortunately. I was limited to Google Sheets for cleanup because my data wasn't **messy** enough or only in pdf form to use a tool like **Tabula**. Thank you for your understanding!*
 
@@ -117,7 +117,7 @@ Unfortunately, this move also caused this issue (because it was VERY unlikely th
 
 I had to go back to the original column, double check my data, and then manually correct and convert the data. It's good to double check! 
 
-### Filtering through my merged dataset
+## Filtering through my merged dataset
 
 After this tedious process was over, I thought it would be cool to look through this merged data using the **filter** function on Google Sheets.
 
@@ -145,7 +145,7 @@ Interrogating this data past "filtering" it was somewhat unsuccessful. Pivot tab
 
 !!! ATTACH IMAGE OF pivottable_notmuch !!!!
 
-### Visualizations from my merged dataset
+## Visualizations from my merged dataset
 
 I wanted to compare the **per capita availability** of **all corn sweeteners** per pound with the U.S. population for the years 1981-2013 (the span of years where data was available for ALL categories (production, imports, exports, per capita availability) for ALL corn sweeteners). 
 
@@ -164,3 +164,15 @@ I also wanted to investigate per capita availability of HFCS in pounds compared 
 <iframe width="680" height="420" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=1742885696&amp;format=interactive"></iframe>
 
 Per capita availability of HFCS in pounds noticeably **rose** in the 90s before dropping again in the early 2000s. 
+
+I thought it would also be interesting to compare the total imports and exports of HFCS per year from 1981 to 2013 (unfortunately there wasn't data for this on all corn sweeteners - but for *future* analysis I would want to conduct this process for dextrose and glucose as well). 
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=1530179053&amp;format=interactive"></iframe>
+
+I found it interesting but not surprising that around the same time as per capita availability and total production of HFCS was at its peak during this time period, imports exceeded exports of HFCS as well. What also is fascinating is the large gap that exists between importation and exportation of HFCS - this gap brings up more questions beyond the scope of this rudimentary analysis such as "**Who** (which countries in the world) would the U.S. be exporting all this HFCS to?" and "Why those particular countries?"
+
+## Conclusions & Further Investigation
+
+This data seems boring on the surface, and even before I created visualizations from the merged dataset I crudely compiled, I didn't think I would stumble across anything noteworthy. Yet, it's always worth thinking about how the U.S. handles (exports/imports/produces) products like these that have been proven through multiple studies to be detrimental to our health and how prevalent these substances are. 
+
+I would want to take a deeper dive with this data and other data centered on which countries import corn sweeteners from the U.S. Additionally, if I had more time, I would have taken a closer look at any legislation that was passed in the late 90s regarding corn sweetener consumption or if any USDA-related legislation aligned with the trends that this data show. 
