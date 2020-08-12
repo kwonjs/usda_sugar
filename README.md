@@ -81,7 +81,7 @@ The way I made my unique merged dataset was by taking columns from the original 
 
 The image above is for **dextrose** specifically, but I repeated this same process of copying and pasting particular columns I was interested in investigating (**production, imports, and exports**) for **hcfs, glucose, and dextrose** as well. This information wasn't available for **refined and raw cane and beet sugar or other substances like edible syrups and honey, which were labeled as sweeteners,** which is why I decided to focus on **corn sweeteners** specifically and delete the extra columns related to non-corn sweetener substances (which I highlighted in red). 
 
-##### Issues
+### Issues
 
 I noticed *__two major problems__* right off the bat after I went through this merging process.
 
