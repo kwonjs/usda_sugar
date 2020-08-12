@@ -41,8 +41,9 @@ Which raised questions I was curious about: *_Was the amount of corn sweetener t
 
 The answer to the first question was yes, which brings us here to this mini data cleaning & analysis project today. 
 
-### Getting and cleaning the data
+### Getting and cleaning/refining the data
 
+*_Note for @Jrue: The tool **Open Refine** corrupted on my computer - the macOS system wouldn't let me use this tool because it blocked all "malware" apps and I didn't find a workaround in time, unfortunately. I was limited to Google Sheets for cleanup because my data wasn't **messy** enough or only in pdf form to use a tool like **Tabula**. Thank you for your understanding!_*
 
 
 
