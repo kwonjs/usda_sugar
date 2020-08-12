@@ -18,7 +18,7 @@ She wasn't wrong. One particular ingredient she probably was talking about was h
 
 In the U.S., heart disease is the *number one* ["leading cause of death for men, women, and people of most racial and ethnic groups in the United States."](https://www.cdc.gov/heartdisease/facts.htm#:~:text=Heart%20disease%20is%20the%20leading,1%20in%20every%204%20deaths.) 
 
-HFCS is found in several kinds of food (yeah, not just Halloween candY) that we find ourselves eating *daily*:
+HFCS is found in several kinds of food (yeah, not just Halloween candy) that we find ourselves eating *daily*:
 
 * yogurt (sweetened)
 * salad dressing
@@ -85,7 +85,7 @@ The image above is for **dextrose** specifically, but I repeated this same proce
 
 I noticed *__two major problems__* right off the bat after I went through this merging process.
 
-1. The unit for "per capita availability" was in **pounds, dry weight.** The unit for "exports," "imports," and "production," however, were in **1000 short tons.**
+**1st issue:** The unit for "per capita availability" was in **pounds, dry weight.** The unit for "exports," "imports," and "production," however, were in **1000 short tons.**
 
 Solution? A simple unit conversion, done easily through Google Sheets. 
 
@@ -105,7 +105,7 @@ Using the process above, I converted the data on imports, exports, and productio
 
 But there was a second issue.
 
-2. "NA" was showing up on a lot of the columns, specifically for information on total imports of HCFS per year in 1000 short tons. This not available data was causing the new columns showing the conversion to display "#VALUE!"
+**2nd issue**: "NA" was showing up on a lot of the columns, specifically for information on total imports of HCFS per year in 1000 short tons. This not available data was causing the new columns showing the conversion to display "#VALUE!"
 
 I wanted to compare data that was available for all sweeteners in all categories, so I decided to omit analyzing these years. When I was preparing the data for analysis, I used the "paste values only" special function. 
 
