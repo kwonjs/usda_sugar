@@ -49,13 +49,13 @@ The answer to the first question was yes, which brings us here to this mini data
 
 Finding the data on USDA's website on corn sweeteners actually wasn't too hard. The department has the data on a page titled ["Sugar and Sweeteners Yearbook Tables"](https://www.ers.usda.gov/data-products/sugar-and-sweeteners-yearbook-tables/).
 
-![USDA dataset page](https://github.com/kwonjs/usda_sweetener/blob/master/usdacornpage.png)
+![USDA dataset page](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/usdacornpage.png)
 
 The exact dataset I chose was titled "Corn Sweetener Supply, Use, and Trade."
 
 When I loaded the dataset onto Google Sheets, I saw this introduction to the dataset:
 
-![Intro to USDA dataset](https://github.com/kwonjs/usda_sweetener/blob/master/usdaintro.png)
+![Intro to USDA dataset](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/usdaintro.png)
 
 I decided after looking at data on "Caloric sweeteners, per capita availability, 1966-2017" and the supply and use of glucose, dextrose, HCFS, and corn sweeteners as a whole in comparison with the U.S. population per year, each different corn sweetener with its own data on separate tab sheets, to **combine** these sheets.
 
@@ -63,21 +63,21 @@ I had to first modify the sheets so that if I created charts or pivot tables fro
 
 The USDA data was fairly cleaned already but the headings were merged to be aesthetically pleasing (which wouldn't work for data analysis) and also vague. 
 
-![Unusable Captions](https://github.com/kwonjs/usda_sweetener/blob/master/unusablecaptions.png)
+![Unusable Captions](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/unusablecaptions.png)
 
 After cleaning the headings, the data looked something like this.
 
-![Clean headings](https://github.com/kwonjs/usda_sweetener/blob/master/beforemerging.png)
+![Clean headings](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/beforemerging.png)
 
 I wanted to merge more data, however, so the final datasheet I was working with looked more like this:
 
-![Clean headings](https://github.com/kwonjs/usda_sweetener/blob/master/mergeddata1.png)
+![Clean headings](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/mergeddata1.png)
 
-![Clean headings pt 2](https://github.com/kwonjs/usda_sweetener/blob/master/mergeddata2.png)
+![Clean headings pt 2](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/mergeddata2.png)
 
 The way I made my unique merged dataset was by taking columns from the original datasheets and merging them onto a new spreadsheet copied from the "per capita" data, because that was originally the dataseet I was most curious about analyzing. 
 
-![Columns copied](https://github.com/kwonjs/usda_sweetener/blob/master/dextroseorig_usedcolshighlighted.png)
+![Columns copied](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/dextroseorig_usedcolshighlighted.png)
 
 The image above is for **dextrose** specifically, but I repeated this same process of copying and pasting particular columns I was interested in investigating (**production, imports, and exports**) for **hcfs, glucose, and dextrose** as well. This information wasn't available for **refined and raw cane and beet sugar or other substances like edible syrups and honey, which were labeled as sweeteners,** which is why I decided to focus on **corn sweeteners** specifically and delete the extra columns related to non-corn sweetener substances (which I highlighted in red). 
 
@@ -109,13 +109,13 @@ But there was a second issue.
 
 I wanted to compare data that was available for all sweeteners in all categories, so I decided to omit analyzing these years. When I was preparing the data for analysis, I used the "paste values only" special function. 
 
-![Paste values only](https://github.com/kwonjs/usda_sweetener/blob/master/paste_value.png)
+![Paste values only](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/paste_value.png)
 
-![Paste values only](https://github.com/kwonjs/usda_sweetener/blob/master/afterpaste_value.png)
+![Paste values only](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/afterpaste_value.png)
 
 Unfortunately, this move also caused this issue (because it was VERY unlikely that any imports of a corn sweetener like dextrose would be at "0" for a country like the U.S. (no offense):
 
-![Careful with pasting values only](https://github.com/kwonjs/usda_sweetener/blob/master/carefulwithzeroes_errorwithpastevalue.png)
+![Careful with pasting values only](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/carefulwithzeroes_errorwithpastevalue.png)
 
 I had to go back to the original column, double check my data, and then manually correct and convert the data. It's good to double check! 
 
@@ -127,15 +127,15 @@ Because all of this data hinged on the *year* they were collected, I thought it 
 
 Some example images of what I found:
 
-![Which year has highest glucose production](https://github.com/kwonjs/usda_sweetener/blob/master/whichyearhighestglucoseprod.png)
+![Which year has highest glucose production](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/whichyearhighestglucoseprod.png)
 
-![Which year has highest dextrose production](https://github.com/kwonjs/usda_sweetener/blob/master/whichyearhighestdextroseprod.png)
+![Which year has highest dextrose production](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/whichyearhighestdextroseprod.png)
 
-![Which year has highest HFCS production](https://github.com/kwonjs/usda_sweetener/blob/master/whichyearhighestHFCSprod.png)
+![Which year has highest HFCS production](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/whichyearhighestHFCSprod.png)
 
-![Which year has highest per capita availability total](https://github.com/kwonjs/usda_sweetener/blob/master/whichyearhighestavailabilityTOTAL.png)
+![Which year has highest per capita availability total](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/whichyearhighestavailabilityTOTAL.png)
 
-![2013 - lowest per capita availability](https://github.com/kwonjs/usda_sweetener/blob/master/percapitaAtLow2013.png)
+![2013 - lowest per capita availability](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/percapitaAtLow2013.png)
 
 The year **1999** saw the highest per capita availability and production for HFCS, the year **1996** saw the highest dextrose production, and the year **2013** saw the highest glucose production (but **1997** saw the highest per capita availability for glucose - 2 different years). 
 
@@ -145,7 +145,7 @@ The data showed interesting results when I organized them from A --> Z (least to
 
 Interrogating this data past "filtering" it was somewhat unsuccessful. Pivot tables don't reveal much else about the data that filtering could, but they do enable the creation of clean graphs (below is a pivot table of per capita availability of all corn sweeteners).
 
-![Example of pivot table](https://github.com/kwonjs/usda_sweetener/blob/master/pivottable_notmuch.png)
+![Example of pivot table](https://raw.githubusercontent.com/kwonjs/usda_sweetener/master/pivottable_notmuch.png)
 
 ## Visualizations from my merged dataset
 
