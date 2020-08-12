@@ -1,7 +1,8 @@
-# An Analysis with USDA (U.S. Department of Agriculture) Data
-## Cleaning and analyzing data on the per capita availability, importation and exportation (and other findings) of _corn sweeteners_
+# A Data Analysis of USDA (U.S. Department of Agriculture) Data on the per capita availability, importation and exportation (and other findings) of _corn sweeteners_
 
 *_Note: For the purposes of this data analysis, the term "corn sweeteners" includes the following: High Fructose Corn Syrup (HFCS), dextrose, and glucose._*
+
+Jenny (Jennifer) Kwon · Final project for Professor Jeremy Rue's J124 (Introduction to Data Journalism) @ U.C. Berkeley's School of Journalism
 
 ### So, uh, why choose USDA data on *corn sweeteners*? 
 
