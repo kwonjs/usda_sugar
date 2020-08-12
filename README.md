@@ -151,9 +151,16 @@ I wanted to compare the **per capita availability** of **all corn sweeteners** p
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=841126474&amp;format=interactive"></iframe>
 
-I then wanted to focus on our main culprit in the eyes of health professionals and concerned moms: HCFS.
+Per capita availability of *all corn sweeteners* seems to be declining in comparison to overall U.S. population. 
+
+I then wanted to focus on a culprit of several health conditions and diseases in the eyes of health professionals and concerned moms: HCFS.
 
 <iframe width="668" height="413" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=687936202&amp;format=interactive"></iframe>
 
-Total production of HCFS seems to start dropping after 1999 (again, I wonder if there was key legislation passed specifically about corn sweeteners), with noticeable drops in 2009/2010 and 2013. However, because of the large rise starting from the 80s, the production of HCFS still seems relatively high. 
+Total production of **HCFS** seems to start dropping after 1999 (again, I wonder if there was key legislation passed specifically about corn sweeteners), with noticeable drops in 2009/2010 and 2013. However, because of the large rise starting from the 80s, the production of HCFS still seems relatively high. 
 
+I also wanted to investigate per capita availability of HFCS in pounds compared to the U.S. population.
+
+<iframe width="680" height="420" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=1742885696&amp;format=interactive"></iframe>
+
+Per capita availability of HFCS in pounds noticeably **rose** in the 90s before dropping again in the early 2000s. 
