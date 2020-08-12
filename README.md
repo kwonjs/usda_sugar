@@ -137,10 +137,15 @@ The year **1999** saw the highest per capita availability and production for HFC
 
 Data notifies people of inconsistencies, but they don't tell the full story. I wonder if there have been certain **policies or laws** that explain why these dates saw the highest rates of production or availability or why there was a drop after these years? 
 
-The data showed interesting results when I organized them from A --> Z (least to greatest) instead of Z --> A (greatest to least). While I expected earlier years to have *less* production or per capita availability of corn sweeteners (especially because the population was smaller then), **2013** - a fairly recent time relative to the years in this dataset - was actually the year with the 5th lowest per capita availability for HFCS. The same question emerged: Are there certain **policies or laws** that explain this discrepancy? 
+The data showed interesting results when I organized them from A --> Z (least to greatest) instead of Z --> A (greatest to least). While I expected earlier years to have *less* production or per capita availability of corn sweeteners (especially because the population was smaller then), **2013** - a fairly recent time relative to the years in this dataset - was actually the year with the 5th lowest per capita availability for HFCS. The same question emerged: Are there certain **policies or laws** that explain this discrepancy?
+
+Interrogating this data past "filtering" it was somewhat unsuccessful. Pivot tables don't reveal much else about the data that filtering could, but they do enable the creation of clean graphs (below is a pivot table of per capita availability of all corn sweeteners).
+
+!!! ATTACH IMAGE OF pivottable_notmuch !!!!
 
 ### Visualizations from my merged dataset
 
-I decided 
+One visualization compares the **per capita availability** of **all corn sweeteners** per pound vs. the U.S. population for the years 1981-2013 (the span of years where data was available for ALL categories (production, imports, exports, per capita availability) for ALL corn sweeteners). 
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=841126474&amp;format=interactive"></iframe>
+
