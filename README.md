@@ -155,6 +155,10 @@ I wanted to compare the **per capita availability** of **all corn sweeteners** p
 
 Per capita availability of *all corn sweeteners* seems to be declining in comparison to overall U.S. population. 
 
+I also wanted to compare per capita availability of the different corn sweeteners. 
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=556256256&amp;format=interactive"></iframe>
+
 I then wanted to focus on a culprit of several health conditions and diseases in the eyes of health professionals and concerned moms: HCFS.
 
 <iframe width="668" height="413" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=687936202&amp;format=interactive"></iframe>
