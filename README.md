@@ -40,7 +40,7 @@ Which raised questions I was curious about: *_Was the amount of corn sweetener t
 
 The answer to the first question was yes, which brings us here to this mini data cleaning & analysis project today. 
 
-## Getting and cleaning the data
+### Getting and cleaning the data
 
 
 
