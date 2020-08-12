@@ -79,6 +79,8 @@ The way I made my unique merged dataset was by taking columns from the original 
 
 The image above is for **dextrose** specifically, but I repeated this same process of copying and pasting particular columns I was interested in investigating (**production, imports, and exports**) for **hcfs, glucose, and dextrose** as well. This information wasn't available for **refined and raw cane and beet sugar or other substances like edible syrups and honey, which were labeled as sweeteners,** which is why I decided to focus on **corn sweeteners** specifically and delete the extra columns related to non-corn sweetener substances (which I highlighted in red). 
 
+##### Issues
+
 I noticed *__two major problems__* right off the bat after I went through this merging process.
 
 1. The unit for "per capita availability" was in **pounds, dry weight.** The unit for "exports," "imports," and "production," however, were in **1000 short tons.**
@@ -145,7 +147,13 @@ Interrogating this data past "filtering" it was somewhat unsuccessful. Pivot tab
 
 ### Visualizations from my merged dataset
 
-One visualization compares the **per capita availability** of **all corn sweeteners** per pound vs. the U.S. population for the years 1981-2013 (the span of years where data was available for ALL categories (production, imports, exports, per capita availability) for ALL corn sweeteners). 
+I wanted to compare the **per capita availability** of **all corn sweeteners** per pound with the U.S. population for the years 1981-2013 (the span of years where data was available for ALL categories (production, imports, exports, per capita availability) for ALL corn sweeteners). 
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=841126474&amp;format=interactive"></iframe>
+
+I then wanted to focus on our main culprit in the eyes of health professionals and concerned moms: HCFS.
+
+<iframe width="668" height="413" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjQYJanahYRgjMdP2bRpHYrrGwKR1pwsMcw9gPp77WAGtbg0Y0WN1f8t-ZUQUU0cSa7md7EkkEwfqA/pubchart?oid=687936202&amp;format=interactive"></iframe>
+
+Total production of HCFS seems to start dropping after 1999 (again, I wonder if there was key legislation passed specifically about corn sweeteners), with noticeable drops in 2009/2010 and 2013. However, because of the large rise starting from the 80s, the production of HCFS still seems relatively high. 
 
